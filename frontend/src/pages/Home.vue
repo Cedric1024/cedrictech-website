@@ -309,7 +309,7 @@
                 </li>
                 <li>
                   <strong>邮箱：</strong>
-                  <span>cedricchan1024@gmail.com</span>
+                  <span>chendecheng@cedrictech.cn</span>
                 </li>
                 <li>
                   <strong>备注建议：</strong>
