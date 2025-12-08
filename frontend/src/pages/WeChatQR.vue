@@ -4,7 +4,7 @@
       <h2 class="title">添加微信 · 快速沟通需求</h2>
       <p class="subtitle">扫一扫二维码，加我微信：<strong>CedricChan-dc</strong></p>
 
-      <img class="qr-img" src="@/assets/wechat.jpg" alt="微信二维码" />
+      <img class="qr-img" src="@/assets/wechat-qiye.jpg" alt="微信二维码" />
 
       <el-button type="success" size="large" class="copy-btn" @click="copyWechat">
         复制微信号：CedricChan-dc
@@ -54,11 +54,12 @@ const copyWechat = async () => {
 }
 
 .qr-img {
-  width: 240px;
-  height: 240px;
+  max-width: 100%;
+  height: auto;
   margin: 20px auto;
   border-radius: 12px;
   border: 1px solid #ebeef5;
+  display: block;
 }
 
 .copy-btn {
